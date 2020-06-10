@@ -55,3 +55,14 @@ SELECT x.name, x.address, x.company FROM customers AS x
 SELECT x.name AS "username", x.address AS "from", x.company AS "Occupation" FROM customers AS x
 ```
 
+### Select Literal
+
+```sql
+SELECT 'My order Num is :' as "user_column1",
+        ORDER_ID ,
+		'Quantity Sold is:' as "user_column2",
+		QUANTITY ,
+		0.2 as "Commision" 
+FROM order_details;
+```
+
