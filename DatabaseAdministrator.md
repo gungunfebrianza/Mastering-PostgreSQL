@@ -72,5 +72,9 @@ FROM order_details;
 SELECT ORDER_ID, QUANTITY, UNIT_PRICE, UNIT_PRICE * 2 AS "New Unit Price" FROM ORDER_DETAILS
 ```
 
+### Select Column Concat 
 
+```sql
+SELECT 'User Order ' || ORDER_ID || ' - ' || UNIT_PRICE AS "Data", UNIT_PRICE * 2 AS "New Unit Price" FROM ORDER_DETAILS
+```
 
