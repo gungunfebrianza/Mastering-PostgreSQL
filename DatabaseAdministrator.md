@@ -41,3 +41,17 @@ SELECT * FROM customers
 SELECT name, address, company FROM customers
 ```
 
+### Select Column By Alias
+
+```sql
+SELECT name AS "username", address AS "from", company AS "Occupation" FROM customers
+```
+
+```sql
+SELECT x.name, x.address, x.company FROM customers AS x
+```
+
+```sql
+SELECT x.name AS "username", x.address AS "from", x.company AS "Occupation" FROM customers AS x
+```
+
