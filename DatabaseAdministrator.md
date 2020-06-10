@@ -66,3 +66,11 @@ SELECT 'My order Num is :' as "user_column1",
 FROM order_details;
 ```
 
+### Select Column Operation
+
+```sql
+SELECT ORDER_ID, QUANTITY, UNIT_PRICE, UNIT_PRICE * 2 AS "New Unit Price" FROM ORDER_DETAILS
+```
+
+
+
