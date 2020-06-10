@@ -25,3 +25,19 @@ CREATE ROLE MojangIndonesia INHERIT;
 GRANT royalty TO maudy;
 ```
 
+-------------
+
+## Select
+
+### Select All Rows & Columns
+
+```sql
+SELECT * FROM customers
+```
+
+### Select Partial Columns
+
+```sql
+SELECT name, address, company FROM customers
+```
+
