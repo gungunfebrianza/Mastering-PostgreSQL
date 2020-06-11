@@ -102,3 +102,11 @@ SELECT * FROM employees WHERE job_title = 'Sales Representative' OR city = 'Seat
 SELECT * FROM products WHERE category LIKE 'D%'
 ```
 
+```sql
+SELECT * FROM products WHERE category LIKE '%s'
+```
+
+```sql
+SELECT * FROM products WHERE category LIKE '%Dried%'
+```
+
