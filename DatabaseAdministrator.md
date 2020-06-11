@@ -91,3 +91,10 @@ SELECT * FROM employees
 WHERE job_title = 'Sales Representative' AND city = 'Seattle'
 ```
 
+### Where Clause - Or Operator
+
+```sql
+SELECT * FROM employees
+WHERE job_title = 'Sales Representative' OR city = 'Seattle'
+```
+
