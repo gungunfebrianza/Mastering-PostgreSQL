@@ -110,3 +110,7 @@ SELECT * FROM products WHERE category LIKE '%s'
 SELECT * FROM products WHERE category LIKE '%Dried%'
 ```
 
+```sql
+SELECT * FROM products WHERE category LIKE '_____@%'
+```
+
