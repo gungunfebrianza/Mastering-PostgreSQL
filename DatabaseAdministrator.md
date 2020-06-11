@@ -87,14 +87,18 @@ SELECT * FROM Customers WHERE last_name = 'Lee'
 ### Where Clause - And Operator
 
 ```sql
-SELECT * FROM employees
-WHERE job_title = 'Sales Representative' AND city = 'Seattle'
+SELECT * FROM employees WHERE job_title = 'Sales Representative' AND city = 'Seattle'
 ```
 
 ### Where Clause - Or Operator
 
 ```sql
-SELECT * FROM employees
-WHERE job_title = 'Sales Representative' OR city = 'Seattle'
+SELECT * FROM employees WHERE job_title = 'Sales Representative' OR city = 'Seattle'
+```
+
+### Where Clause - Like Operator
+
+```sql
+SELECT * FROM products WHERE category LIKE 'D%'
 ```
 
