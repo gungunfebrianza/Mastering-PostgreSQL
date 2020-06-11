@@ -78,3 +78,9 @@ SELECT ORDER_ID, QUANTITY, UNIT_PRICE, UNIT_PRICE * 2 AS "New Unit Price" FROM O
 SELECT 'User Order ' || ORDER_ID || ' - ' || UNIT_PRICE AS "Data", UNIT_PRICE * 2 AS "New Unit Price" FROM ORDER_DETAILS
 ```
 
+### Where Clause
+
+```sql
+SELECT * FROM Customers WHERE last_name = 'Lee'
+```
+
