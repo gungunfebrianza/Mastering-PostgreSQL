@@ -84,3 +84,10 @@ SELECT 'User Order ' || ORDER_ID || ' - ' || UNIT_PRICE AS "Data", UNIT_PRICE * 
 SELECT * FROM Customers WHERE last_name = 'Lee'
 ```
 
+### Where Clause - And Operator
+
+```sql
+SELECT * FROM employees
+WHERE job_title = 'Sales Representative' AND city = 'Seattle'
+```
+
